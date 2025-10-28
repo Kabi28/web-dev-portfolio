@@ -40,7 +40,7 @@ function App() {
             </a>
           </div>
           <div className="img-content">
-            <img src="src/assets/load.png" alt="" />
+            <img src="/load.png" alt="" />
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@ function App() {
         <h1 className="about-h1">About Me :</h1>
         <div className="about-img">
           <img
-            src="src/assets/future_of_work_concept_illustration.jpg"
+            src="/future_of_work_concept_illustration.jpg"
             alt=""
           />
         </div>
@@ -75,7 +75,7 @@ function App() {
         <h1>Projects :</h1>
         <div className="project-wrap">
           <div className="project-item">
-            <img src="src/assets/img1.png" alt="" />
+            <img src="/img1.png" alt="" />
             <h2>YouTube Clone</h2>
             <a
               href="https://youtube-clone-lyart-seven.vercel.app/"
@@ -94,7 +94,7 @@ function App() {
           </div>
 
           <div className="project-item">
-            <img src="src/assets/img2.png" alt="" />
+            <img src="/img2.png" alt="" />
             <h2>E-Commerce Menwear</h2>
             <a href="https://main-app1.vercel.app/" target="_blank">
               https://main-app1.vercel.app/
@@ -110,7 +110,7 @@ function App() {
           </div>
 
           <div className="project-item">
-            <img src="src/assets/img3.png" alt="" />
+            <img src="/img3.png" alt="" />
             <h2>Weather App</h2>
             <a href="https://weather-app-woad-tau.vercel.app/" target="_blank">
               https://weather-app-woad-tau.vercel.app/
@@ -128,29 +128,29 @@ function App() {
       </div>
       <div className="certifications" id="certificates">
         <h1>Certifications :</h1>
-        <img src="/src/assets/pro2.jpeg" alt="" />
-        <img src="/src/assets/pro1.jpeg" alt="" />
+        <img src="/pro2.jpeg" alt="" />
+        <img src="/pro1.jpeg" alt="" />
       </div>
       <div className="contact" id="contact">
         <h1>Contact Me :</h1>
         <div className="contact-img">
-          <img src="src/assets/20943705.jpg" alt="" />
+          <img src="/20943705.jpg" alt="" />
         </div>
         <div className="contact-text">
           <div className="contact-item">
-            <img src="/src/assets/mail.svg" alt="" />
+            <img src="/mail.svg" alt="" />
             <p>vskabilan2004@gmail.com</p>
           </div>
           <div className="contact-item">
-            <img src="/src/assets/linkedin.svg" alt="" />
-            <p>kabilan</p>
+            <img src="/linkedin.svg" alt="" />
+            <p>kabilanv</p>
           </div>
           <div className="contact-item">
-            <img src="/src/assets/mobile.svg" alt="" />
+            <img src="/mobile.svg" alt="" />
             <p>+91 8098428593</p>
           </div>
           <div className="contact-item">
-            <img src="/src/assets/instagram.svg" alt="" />
+            <img src="/instagram.svg" alt="" />
             <p>iam_kabilanv</p>
           </div>
         </div>
