@@ -127,7 +127,7 @@ function App() {
         </div>
       </div>
       <div className="certifications" id="certificates">
-        <h1>Certifications :</h1>
+        <h1 id='cert'>Certifications :</h1>
         <img src="/pro2.jpeg" alt="" />
         <img src="/pro1.jpeg" alt="" />
       </div>
