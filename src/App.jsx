@@ -1,13 +1,15 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [show, setShow] = useState(false);
   return (
     <div className="portfolio">
       <div className="hero" id="home">
         <div className="nav">
           <h1>KABILAN</h1>
           <div className="nav-list">
-            <ul>
+            <ul className={`${show ? "active" : "inactive"}`}>
               <li>
                 <a href="#home">Home</a>
               </li>
@@ -24,8 +26,13 @@ function App() {
                 <a href="#contact">Contact</a>
               </li>
             </ul>
-            
           </div>
+          <img
+            src="/hamburger.svg"
+            alt="open"
+            className="hamb"
+            onClick={() => setShow(!show)}
+          />
         </div>
         <div className="port-container">
           <div className="text-content">
@@ -47,10 +54,7 @@ function App() {
       <div className="about" id="about">
         <h1 className="about-h1">About Me :</h1>
         <div className="about-img">
-          <img
-            src="/future_of_work_concept_illustration.jpg"
-            alt=""
-          />
+          <img src="/future_of_work_concept_illustration.jpg" alt="" />
         </div>
         <div className="about-text">
           <p>
@@ -127,7 +131,7 @@ function App() {
         </div>
       </div>
       <div className="certifications" id="certificates">
-        <h1 id='cert'>Certifications :</h1>
+        <h1 id="cert">Certifications :</h1>
         <img src="/pro2.jpeg" alt="" />
         <img src="/pro1.jpeg" alt="" />
       </div>

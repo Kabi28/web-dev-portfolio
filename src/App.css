@@ -71,6 +71,11 @@ a.active::after {
     width: 100%;
 }
 
+.hamb {
+    width: 5%;
+    display: none;
+}
+
 .text-content button {
     padding: 2rem 3rem;
     outline: none;
@@ -325,8 +330,25 @@ a.active::after {
         overflow-x: hidden;
     }
 
-    .nav {
-        display: none;
+    .hamb {
+        display: block;
+        z-index: 999;
+    }
+
+    .nav-list ul {
+        position: fixed;
+        padding: 2rem 5rem;
+        height: 100vh;
+        flex-direction: column;
+        background-color: rgb(180, 175, 175);
+        color: #040014;
+        right: 0;
+        top: 0;
+        border-radius: 5px;
+    }
+
+    .nav-list ul li {
+        padding: 20px;
     }
 
     .port-container {
@@ -334,6 +356,14 @@ a.active::after {
         min-height: 100vh;
         text-align: center;
         padding-top: 8rem;
+    }
+
+    .active {
+        display: block;
+    }
+
+    .inactive {
+        display: none;
     }
 
     .text-content {
