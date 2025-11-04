@@ -7,7 +7,7 @@ function App() {
     <div className="portfolio">
       <div className="hero" id="home">
         <div className="nav">
-          <h1>KABILAN</h1>
+          <h1>Web Developer</h1>
           <div className="nav-list">
             <ul className={`${show ? "active" : "inactive"}`}>
               <li>

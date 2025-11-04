@@ -72,7 +72,7 @@ a.active::after {
 }
 
 .hamb {
-    width: 5%;
+    width: 8%;
     display: none;
 }
 
@@ -292,11 +292,16 @@ a.active::after {
     flex-direction: column;
     justify-content: center;
     padding-left: 5rem;
+    background-color: rgb(165, 165, 173) !important;
+    border-radius: 20px;
+    padding: 2rem;
+    
 }
 
 .contact-item {
     display: flex;
     align-items: center;
+    
 }
 
 .contact-item img {
@@ -308,7 +313,7 @@ a.active::after {
 .contact-item p {
     font-size: 2.5rem;
     font-weight: 600;
-    color: #040014;
+    color: #240678;
 }
 
 .footer {
@@ -346,6 +351,9 @@ a.active::after {
         top: 0;
         border-radius: 5px;
     }
+    .nav h1{
+        margin: auto;
+    }
 
     .nav-list ul li {
         padding: 20px;
@@ -367,7 +375,7 @@ a.active::after {
     }
 
     .text-content {
-        padding: 2rem;
+        padding: 15rem 2rem 2rem;
     }
 
     .img-content img {
@@ -416,13 +424,15 @@ a.active::after {
 
     .contact {
         flex-direction: column;
+        gap: 5rem;
         height: auto;
         background-size: cover;
     }
 
     .contact-text {
-        padding: 2rem;
         background: rgba(255, 255, 255, 0.8);
+        width: 90%;
+        margin: auto;
     }
 
     .contact h1 {
